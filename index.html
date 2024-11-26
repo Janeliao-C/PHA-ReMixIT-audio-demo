@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,4 +12,94 @@
         Your browser does not support the audio element.
     </audio>
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Image Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        audio {
+            width: 100%;
+            max-width: 300px;
+        }
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 第一部分：描述 -->
+    <div>
+        <h1>Welcome to the Audio and Image Demo</h1>
+        <p>
+            This is a demo page showcasing audio files and their corresponding images. 
+            Below, you will find a table that links each audio file with an image. 
+            Click on the play button to listen to the audio and view the corresponding image.
+        </p>
+    </div>
+
+    <!-- 第二部分：表格 -->
+    <table>
+        <thead>
+            <tr>
+                <th>Audio</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- 音频文件 -->
+                    <audio controls>
+                        <source src="https://janeliao-c.github.io/PHA-ReMixIT-audio-demo/wav_file/S21_P46_106.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <!-- 图片 -->
+                    <img src="![S21_P47_231.wav](https://github.com/user-attachments/assets/aa2ec619-e523-457a-a06c-59cc598f2365)" alt="Image 1">
+                </td>
+            </tr>
+<!--             <tr>
+                <td>
+                    <audio controls>
+                        <source src="audio2.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <img src="image2.jpg" alt="Image 2">
+                </td>
+            </tr> -->
+        </tbody>
+    </table>
+
+</body>
 </html>
+
